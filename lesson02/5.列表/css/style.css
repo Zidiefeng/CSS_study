@@ -1,0 +1,39 @@
+/*从外网里写，div是parent集，所以写在最上面*/
+#nav{
+    background-color:pink;
+    width:200px;
+
+}
+
+.title{
+    /*title == header2??*/
+    font-size:18px;
+    font-weight:bold;
+    text-indent: 1em;
+    line-height:3;
+    background-color:pink;
+}
+/*ul li*/
+ul{/*apply to the whole list*/
+    background-color: lightgray;
+}
+ul li{
+    line-height:2;
+    list-style:none; /*no bullet points*/
+    list-style:circle: /*空心圆*/
+    list-style:decimal; /*有序列表*/
+    list-style:square; /*正方形*/
+    text-indent: 1em
+
+}
+
+a{
+    text-decoration:none;
+    font-size:14px;
+    color:purple;
+
+}
+a:hover{
+    color:orange;
+    text-decoration:underline;
+}

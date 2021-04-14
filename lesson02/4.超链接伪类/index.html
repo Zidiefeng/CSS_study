@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        a{
+            text-decoration:none;
+            color:purple;
+        }
+        a:hover{
+            color:orange;
+            font-size:20px;
+        }
+        /*鼠标按住 没有松开的状态 设定*/
+        a:active{
+            color: yellow;
+        }
+        /*
+        a:link{
+            color:brown;
+        }
+        a:visited{
+            color:red;
+        }
+        */
+        #price{
+            text-shadow:5px 5px 10px #FF0000; /*水平往右偏移，高度往下，半径大小，颜色*/
+        }
+    </style>
+</head>
+<body>
+
+<!--#是默认当前页面-->
+<a href="#">
+    <img src="images/lulu.jpg" width="250" alt="lulu">
+</a>
+<p>
+    <a href="">叛逆的鲁鲁修</a>
+</p>
+<p>
+    <a href="">作者</a>
+</p>
+<p id="price">$10,000</p>
+
+</body>
+</html>
