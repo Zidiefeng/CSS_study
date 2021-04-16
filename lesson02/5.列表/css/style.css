@@ -11,7 +11,12 @@
     font-weight:bold;
     text-indent: 1em;
     line-height:3;
+/*
     background-color:pink;
+    background: red url("../images/right.png")
+    background: red url("../images/right.png") no-repeat;
+*/
+    background: pink url("../images/down.png") 160px 19px no-repeat;
 }
 /*ul li*/
 ul{/*apply to the whole list*/
@@ -23,8 +28,10 @@ ul li{
     list-style:circle: /*空心圆*/
     list-style:decimal; /*有序列表*/
     list-style:square; /*正方形*/
-    text-indent: 1em
-
+    text-indent: 1em;
+    background-image: url("../images/right.png");
+    background-repeat: no-repeat;
+    background-position: 123px 8px;
 }
 
 a{

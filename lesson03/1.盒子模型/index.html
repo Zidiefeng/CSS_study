@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h1, ul,li,a,body{
+            /*body总有一个默认的不为零margin*/
+            margin: 0;
+            padding: 0;
+            text-decoration:none;
+        }
+        /*border: 粗细，样式，颜色*/
+        #app{
+            width: 300px;
+            border: 1px solid purple;
+        }
+        h2{
+           font-size: 16px;
+           background-color: lightyellow;
+           line-height:30px;
+           margin :0;
+        }
+        form{
+            background:lightblue;
+        }
+        div:nth-of-type(1)>input{
+            border: 3px solid gray;
+        }
+        div:nth-of-type(2)>input{
+            border: 3px dashed green;
+        }
+        div:nth-of-type(2)>input{
+            border: 3px dashed green;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <h2>Log In</h2>
+    <form action="#">
+        <div>
+            <span>username：</span>
+            <input type="text"></input>
+        </div>
+        <div>
+            <span>password：</span>
+            <input type="text"></input>
+        </div>
+        <div>
+            <span>email：</span>
+            <input type="text"></input>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
