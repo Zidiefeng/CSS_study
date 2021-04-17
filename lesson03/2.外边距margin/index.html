@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+</head>
+
+<!--外边距margin 妙用：居中element-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
     <style>
         h1, ul,li,a,body{
             /*body总有一个默认的不为零margin*/
@@ -14,25 +21,21 @@
         #app{
             width: 300px;
             border: 1px solid purple;
+            margin: 0 auto;
         }
         h2{
            font-size: 16px;
            background-color: lightyellow;
            line-height:30px;
-           margin :0;
+           margin :0 15px;
         }
         form{
             background:lightblue;
         }
-        div:nth-of-type(1)>input{
-            border: 3px solid gray;
+        input{
+            border:1px solid gray;
         }
-        div:nth-of-type(2)>input{
-            border: 3px dashed green;
-        }
-        div:nth-of-type(2)>input{
-            border: 3px dashed green;
-        }
+
     </style>
 </head>
 <body>
