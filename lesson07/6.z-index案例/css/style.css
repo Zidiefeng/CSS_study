@@ -1,0 +1,34 @@
+#content{
+    padding:0px;
+    width:300px;
+    margin:0px;
+    overflow:hidden;
+    font-size:12px;
+    line-height:25px;
+    border:1px gray solid;
+}
+ul,li{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+#content ul{
+/*parent 相对定位后，就可以相对parent框定位了*/
+    position: relative;
+}
+.tipText,.tipBackground{
+    position: absolute;
+    width:300px;
+    height:25px;
+    top:209px;
+    font-size:12px;
+}
+.tipText{
+    z-index:999;
+}
+.tipBackground{
+    width:300px;
+    background-color:pink;
+    /*opacity:0.5;*/
+    filter:alpha(opacity=50);
+}
