@@ -3,7 +3,7 @@
 此repo记录了我学习HTML5（狂神说系列）的笔记和代码：
 
 - [个人学习笔记](https://github.com/Zidiefeng/CSS_study/tree/master/docs)
-- [code](https://github.com/Zidiefeng/CSS_study)
+- [code](https://github.com/Zidiefeng/CSS_study) （from `lesson01` t0 `lesson07`）
 
 ---
 
